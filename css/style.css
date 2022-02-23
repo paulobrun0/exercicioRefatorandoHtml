@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: #f7f7f7;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding-top: 3.75rem;
+}
+
+ul {
+  list-style: none;
+  margin: 2.5rem 0 0 0;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  background: #fff;
+  padding: 0.93rem 1.25rem;
+  border-radius: 0.25rem;
+  border-style: none;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  border: 2px solid #ee2211;
+}
+
+.conteudo-principal {
+  max-width: 62.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5.62rem auto;
+}
+
+.descricao {
+  background: #fff;
+  display: grid;
+  justify-items: end;
+  align-content: center;
+  text-align: right;
+  padding: 1.25rem 1.25rem 0 0;
+  position: relative;
+  gap: 40px;
+}
+.descricao::after {
+  content: "";
+  width: 3.75rem;
+  height: 0.25rem;
+  background: #ee2211;
+  position: absolute;
+  top: 1.87rem;
+  right: -1.25rem;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.descricao a {
+  background: #ee2211;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.descricao a:hover {
+  background: #900;
+}
+
+.img-descricao img {
+  max-width: 100%;
+  display: block;
+}
+
+.vantagens-titulo {
+  display: grid;
+  align-self: center;
+  text-align: right;
+  padding: 0 1.25rem 0 0;
+  background-image: url("/exPosicionamentoRefatorado/img/onda.svg");
+}
+
+.vantagens-descricao {
+  display: grid;
+}
+
+.vantagens-descricao-ul {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #c6c6c6;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.vantagens-bikcraft {
+  display: grid;
+  background: #fff;
+  padding: 2.5rem;
+}
+
+.titulo-descricao-principal {
+  display: flex;
+  justify-items: center;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.vantagens-descricao-ul li:hover {
+  border-left: 4px solid #ee2211;
+  padding-right: 20px;
+}
+
+.vantagens-descricao-ul li:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+.img-vantagens-descricao {
+  padding-right: 10px;
+}
+.vantagens-descricao-ul li p {
+  padding-left: 34px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  padding: 1.25rem 0px;
+}
